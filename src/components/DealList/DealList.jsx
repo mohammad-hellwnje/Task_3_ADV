@@ -1,7 +1,7 @@
 import React from 'react';
 import './DealList.css';
 
-function DealList({ selectedDeal }) {
+function DealList({ Deal }) {
   const dealData = {
     apartment: [
       { listinfo: "Total Flat Space", listNumber: "185 m2" },
@@ -26,7 +26,7 @@ function DealList({ selectedDeal }) {
     ],
   };
 
-  const list = dealData[selectedDeal];
+  const list = dealData[Deal];
 
   return (
     <div className="deallist">

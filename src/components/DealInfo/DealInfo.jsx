@@ -2,7 +2,7 @@ import { faCalendarDays } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './DealInfo.css';
 
-function DealInfo({ selectedDeal }) {
+function DealInfo({ Deal }) {
   const Info = {
     apartment: {
       title: "Extra Info About Apartment",
@@ -21,7 +21,7 @@ function DealInfo({ selectedDeal }) {
     }
   };
 
-  const selectedInfo = Info[selectedDeal];
+  const selectedInfo = Info[Deal];
 
   return (
     <div className="deal-info">

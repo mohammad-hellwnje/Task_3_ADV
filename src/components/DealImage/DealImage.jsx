@@ -4,7 +4,7 @@ import img2 from "./../../assets/images/property-06.jpg";
 import img3  from "./../../assets/images/property-03.jpg";
 
 
-function DealImage({ selectedDeal }) {
+function DealImage({ Deal }) {
   const images = {
     apartment: img1,
     villa: img2,
@@ -13,7 +13,7 @@ function DealImage({ selectedDeal }) {
 
   return (
     <div className="dealimage">
-        <img src={images[selectedDeal]} alt="deal-image" />
+        <img src={images[Deal]} alt="deal-image" />
     </div>
   )
 }

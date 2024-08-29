@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './DealHead.css';
 
-function DealHead({ setSelectedDeal }) {
+function DealHead({ setDeal }) {
   const [activeButton, setActiveButton] = useState("apartment");
 
-  const ButtonClick = (dealType) => {
-    setActiveButton(dealType);
-    setSelectedDeal(dealType);
+  const ButtonClick = (TypeOfDeal) => {
+    setActiveButton(TypeOfDeal);
+    setDeal(TypeOfDeal);
   };
 
   return (

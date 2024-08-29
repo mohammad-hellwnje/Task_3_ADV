@@ -6,15 +6,15 @@ import DealList from '../DealList/DealList';
 import './DealSection.css';
 
 function DealSection() {
-  const [selectedDeal, setSelectedDeal] = useState("apartment");
+  const [Deal, SetDeal] = useState("apartment");
 
   return (
    <div className="DealSection">
-     <DealHead setSelectedDeal={setSelectedDeal}/>
+     <DealHead setDeal={SetDeal}/>
      <div className="DealContent">
-        <DealList selectedDeal={selectedDeal} />
-        <DealImage selectedDeal={selectedDeal}/>
-        <DealInfo selectedDeal={selectedDeal} />
+        <DealList Deal={Deal} />
+        <DealImage Deal={Deal}/>
+        <DealInfo Deal={Deal} />
      </div>
    </div>
   )
