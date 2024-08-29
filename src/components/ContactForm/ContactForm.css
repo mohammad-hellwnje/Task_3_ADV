@@ -1,0 +1,35 @@
+.contact-form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 4px rgb(236, 236, 236);
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form form label {
+    margin: 20px 0;
+}
+.contact-form form input {
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+}
+.contact-form form textarea {
+    padding: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px 20px 0 20px;
+    margin-bottom: 20px;
+    height: 130px;
+}
+.contact-form form button {
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+}

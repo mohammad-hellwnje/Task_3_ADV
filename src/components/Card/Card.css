@@ -1,0 +1,66 @@
+.card {
+    background-color: rgb(245, 243, 243);
+    padding: 20px;
+    border-radius: 15px;
+    width: 26%;
+}
+.card img {
+    border-radius:15px ;
+    width: 100%;
+}
+.card .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.card .price button {
+    border: none;
+    background-color: rgb(251, 217, 207);
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.card .price p {
+    color: rgb(243, 85, 37);
+    font-size: 23px;
+    font-weight:bold ;
+}
+.card h3 {
+    font-size: 24px;
+}
+.card .information {
+    display: flex;
+    margin: 30px 0;
+}
+.card .information .info1 p {
+    line-height: 1.6;
+    color: rgb(177, 175, 175);
+}
+.card .information .info1  span {
+    color: black;
+    font-weight: 700;
+}
+.card .btn {
+      border-top: 1px solid rgb(209, 208, 208);
+      padding-top:30px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.card .btn button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+@media (max-width:992px) {
+    .card {
+        width: 40%;
+    }
+}
+@media (max-width:768px) {
+    .card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+.properites {
+    padding-top: 117px;
+}
+.pro-container {
+    padding: 0 70px 80px 70px;
+}
+@media(max-width:992px) {
+    .pro-container {
+        padding: 0 40px;
+    }
+}
+@media (max-width:768px) {
+    .properites {
+        padding-top: 77px;
+    } 
+}
+@media (max-width:576px) {
+    .pro-container {
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,24 @@
+.PropertyDetails {
+    padding-top: 117px;
+}
+.det-main {
+    padding: 100px 70px;
+}
+@media (max-width:992px) {
+    .PropertyDetails {
+        padding-top:127px ;
+    }
+    .det-main {
+        padding: 80px 40px;
+    }
+}
+@media (max-width:768px) {
+    .PropertyDetails {
+        padding-top:77px ;
+    }
+}
+@media (max-width:576px) {
+    .det-main {
+        padding: 60px 20px;
+    }
+}

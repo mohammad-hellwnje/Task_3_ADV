@@ -1,0 +1,22 @@
+.DealContent {
+    display: flex;
+    justify-content: space-between;
+}
+.DealSection {
+    padding: 100px 70px;
+    background-color: rgb(250, 250, 250);
+}
+@media(max-width:992px) {
+    .DealContent  {
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .DealSection {
+        padding: 70px 40px;
+    }
+}
+@media(max-width:576px) {
+    .DealSection {
+        padding: 70px 20px;
+    }
+}

@@ -1,0 +1,79 @@
+.content h2 {
+    width: 240px;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 50px;
+    line-height: 1.4;
+}
+
+.content .content-box {
+
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px;
+    width: 93%;
+}
+
+.content .content-box .content-box1 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(194, 187, 187);
+    padding: 15px;
+}
+
+.content .content-box .content-box1 p {
+    color: red;
+}
+
+.content .content-box .content-box2 {
+    padding: 0 15px;
+    margin-bottom: 15px 
+}
+
+.content .content-box .content-box2 p {
+    margin-top: 20px;
+    line-height: 1.5;
+    cursor: pointer;
+
+}
+
+.content .content-box .content-box2 p span:first-of-type {
+    font-weight: bold;
+}
+
+.content .content-box .content-box2 p span:nth-of-type(2) {
+    color: blue;
+
+}
+
+.content .content-box .content-box3 {
+    padding: 15px;
+    border-top: 1px solid rgb(194, 187, 187);
+}
+
+.content .content-box .content-box3 p {
+
+    line-height: 1.5;
+    cursor: pointer;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ;
+  }
+  
+  .accordion-content.open {
+    max-height: 100px; 
+    padding: 10px 0;
+  }
+  
+@media (max-width:576px) {
+    .content h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+}
+@media (max-width:768px) {
+    .content .content-box {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}

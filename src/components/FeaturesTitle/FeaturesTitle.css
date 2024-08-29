@@ -1,0 +1,17 @@
+.featurestitle .title {
+    margin-bottom: 30px;
+    padding-left: 5px;
+    border-left: 2px solid red;
+    width: 150px;
+}
+.featurestitle h2 {
+    width: 240px;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 50px;
+    line-height: 1.4;
+}
+.featurestitle .title p {
+    color: red;
+    font-size: 18px;
+}

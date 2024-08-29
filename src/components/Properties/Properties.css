@@ -1,0 +1,13 @@
+.properties {
+    padding: 100px 70px;
+}
+@media(max-width:992px) {
+    .properties {
+        padding: 100px 40px;
+    }
+}
+@media(max-width:576px) {
+    .properties {
+        padding: 70px 20px;
+    }
+}

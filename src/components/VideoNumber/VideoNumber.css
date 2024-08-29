@@ -1,0 +1,68 @@
+.number {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+    padding: 0 70px 100px 70px;
+}
+.box{
+    width: 20%;
+    background-color: rgb(255, 238, 233);
+    padding: 15px;
+    position: relative;
+    border-radius: 8px;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+}
+.infos .num {
+    margin-right: 20px;
+}
+.infos .num h2 {
+    color:rgb(243, 85, 37) ;
+    font-size: 40px;
+}
+.infos .texts h3 {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.infos .texts p {
+    font-weight: 600;
+    font-size: 15px;
+}
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(243, 85, 37);
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+@media (max-width:992px) {
+    .box {
+        width: 25%;
+    }
+    .number {
+        padding: 0 40px;
+    }
+}
+@media (max-width:768px) {
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .number {
+        flex-wrap: wrap;
+    }
+    .infos {
+        justify-content: space-between;
+    }
+
+}
+@media (max-width:576px) {
+    .number {
+        padding: 0 20px;
+        margin-top: 75px;
+    }
+}

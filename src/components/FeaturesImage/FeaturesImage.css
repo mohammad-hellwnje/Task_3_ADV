@@ -1,0 +1,59 @@
+.icon-image {
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 80px;
+    left: -33px;
+    padding: 10px;
+}
+.image {
+    position: relative;
+    width: 30%;
+}
+.image img {
+    width: 100%;
+    height: 77%;
+}
+
+.icon-image img {
+    width: 50px;
+}
+.images p {
+    margin:5px 0 0 15px;
+    opacity: .5;
+
+}
+@media (max-width:992px) {
+    .image {
+        width: 48%;
+        margin-bottom: 60px;
+    }
+    .image img {
+        height: 100%;
+    }
+    .icon-image {
+
+        bottom: -40px;
+    }
+    .icon-image img {
+        width: 30px;
+    }
+}
+@media (max-width:768px) {
+    .image {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width:576px) {
+    .icon-image {
+        left: -6px;
+        width: 55px;
+        height: 55px;
+    }
+}

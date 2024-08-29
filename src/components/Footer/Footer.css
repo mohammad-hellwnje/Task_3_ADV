@@ -1,0 +1,26 @@
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px 70px;
+}
+.center {
+    text-align: center;
+}
+@media (max-width:992px) 
+{
+    .footer {
+        padding: 30px 40px;
+    }
+}
+@media (max-width:576px) 
+{
+    .footer {
+        padding: 15px 20px;
+        text-align:center ;
+        line-height: 1.6;
+        
+    }
+
+}

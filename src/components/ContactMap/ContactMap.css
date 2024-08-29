@@ -1,0 +1,11 @@
+.contact-map {
+
+    height: 480px; 
+    border-radius: 8px;
+
+}
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

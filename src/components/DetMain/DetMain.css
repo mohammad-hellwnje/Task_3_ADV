@@ -1,0 +1,14 @@
+.detmain {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media(max-width:768px){
+    .detmain {
+        flex-wrap: wrap;
+    }
+    .det-list {
+        width: 100%;
+    }
+}
