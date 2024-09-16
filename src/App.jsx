@@ -14,7 +14,7 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='Task_3_ADV' element={<Home />} />
         <Route path='/properties' element={<ProperitesPage />} />
         <Route path='/property-details' element={<PropertyDetails />} />
         <Route path='/contact' element={<ContactUs />} />
